@@ -1,3 +1,33 @@
+При установке дополнительно ПО возникают проблемы. 
+
+Решение:
+
+# Ссылки на ресурс с репозиториями:
+
+https://bigro.ru/system/21-repozitorij-debian#debian11  
+https://bigro.ru/system/21-repozitorij-debian  
+https://unixhelp.org/debian-11-default-reposytory/  
+
+# Стабильные репозитории:
+
+deb http://deb.debian.org/debian bullseye main  
+deb-src http://deb.debian.org/debian bullseye main  
+deb http://security.debian.org/debian-security bullseye-security main contrib non-free  
+deb-src http://security.debian.org/debian-security bullseye-security main contrib non-free  
+deb http://security.debian.org/debian-security bullseye-security main  
+deb-src http://security.debian.org/debian-security bullseye-security main  
+deb http://deb.debian.org/debian bullseye-updates main  
+deb-src http://deb.debian.org/debian bullseye-updates main  
+
+# Дополнительные репозитории: (необязательные)
+
+deb http://mirror.yandex.ru/debian bullseye main  
+deb-src http://mirror.yandex.ru/debian bullseye main  
+deb http://mirror.yandex.ru/debian bullseye-updates main  
+deb-src http://mirror.yandex.ru/debian bullseye-updates main  
+deb https://mirror.yandex.ru/debian-security bullseye-security main  
+deb-src https://mirror.yandex.ru/debian-security bullseye-security main  
+
 
 # Виртуальные машины и коммутация.
 
